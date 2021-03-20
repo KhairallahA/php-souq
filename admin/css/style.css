@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    direction: ltr;
+    background: #f9f9f9;
+}
+.loginAll{
+    width: 600px;
+    margin: 90px auto;
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 10px;
+}
+input[type=text]{
+    padding: 7px;
+    width: 570px;
+    border: 1px solid #eee;
+    font-family: tahoma;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type=password]{
+    padding: 7px;
+    width: 570px;
+    border: 1px solid #eee;
+    font-family: tahoma;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+button[type=submit]{
+    padding: 7px;
+    width: 300px;
+    border: 1px solid #217aad;
+    font-family: tahoma;
+    font-size: 15px;
+    background: #51a9dc;
+    color: #fff;
+    margin: 0px 150px;
+    cursor: pointer;
+}
+button[type=submit]:hover{
+    background: #1295e0;
+    border: 1px solid #136696;
+}
+.ok{
+    background: #5bcf71;
+    padding: 15px 10px;
+    text-align: center;
+    font-family: tahoma;
+    color: #fff;
+    font-size: 15px;
+    border: solid 1px #2da845;
+}
+.all{
+    width: 600px;
+    margin: 50px auto;
+}
+.adminMenu ul{
+    list-style: none;
+    overflow: hidden;
+}
+.adminMenu ul li{
+    float: left;
+    padding: 5px;
+    background: #4cb9eb;
+    margin-right: 10px;
+}
+.adminMenu ul li a{
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 15px;
+    color: #fff;
+}
+.adminBody{
+    background: #fff;
+    padding: 10px;
+    font-family: tahoma;
+    font-size: 15px;
+    text-align: right;
+    border: 1px solid #eee;
+}
+label{
+    text-align: right;
+    font-family: tahoma;
+    color: #555;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
